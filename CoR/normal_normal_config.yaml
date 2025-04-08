@@ -1,0 +1,12 @@
+- name: norm
+  distributions:
+    - type: normal
+      length: 200
+      parameters:
+        mean: 0.1
+        variance: 0.5
+    - type: normal
+      length: 200
+      parameters:
+        mean: 0.5
+        variance: 0.5
