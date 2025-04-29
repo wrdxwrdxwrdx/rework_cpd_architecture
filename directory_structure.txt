@@ -1,0 +1,14 @@
+├── pipeline
+├── AbsFact
+├── steps
+│    ├── data_generation_step
+│    │    └── generators
+│    ├── report_generation_step
+│    │    ├── reporters
+│    │    └── visualizers
+│    └── test_execution_step
+│         ├── algorithms
+│         ├── scrubbers
+│         └── workers
+├── storages
+└── results

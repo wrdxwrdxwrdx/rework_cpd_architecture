@@ -50,7 +50,7 @@
     5. Далее этот объект репортера будем называть **GraphReporter**.
 6. Оценить качество
     1. Создаем конфиг для генерации большего количества датасетов с нормальным распределением.
-    2. Создаем DataGenerationStep (name=**NormalGenerationStep**). Туда передается **NormalGenerator** и Storage (туда
+    2. Создаем DataGenerationStep (name=**NormalGenerationStep**). Туда передаём **NormalGenerator** и Storage (туда
        будут сохраняться данные).
     3. Так же заполняем поля _input_data_names_ (None) и _output_data_names_ (названия параметров, по которым данные
        записываются в БД). В нашем случае _input_data_names_ = None,
@@ -72,3 +72,4 @@
         - ExecutionStep: OK
         - GraphReporter: OK
         - PIPELINE FINISHED
+    8. Результат работы будет лежать в /results в соответствующем документе (с названием, допустим, result-дата-время)
