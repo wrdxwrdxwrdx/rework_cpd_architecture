@@ -11,4 +11,5 @@
 │         ├── scrubbers
 │         └── workers
 ├── storages
+├── execution_logs
 └── results
