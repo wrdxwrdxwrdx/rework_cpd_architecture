@@ -27,3 +27,10 @@
   + config: Optional[Path] = None
 
     Конфиг запуска Процессора. Не обязателен, нужен только для специалезированных Процессоров.
+
++ МЕТОДЫ:
+
+  + validate_output(output: dict[str, Any]): bool
+
+    Проверяет подходит ли output заданным полям output_storage_names и output_step_names.  `set(output.keys()) >=  output_step_names + output_storage_names`
+
